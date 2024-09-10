@@ -4,8 +4,8 @@
     display: flex;
     gap: 90px;
     display: flex;
-    justify-content: center; /* Вирівнювання по горизонталі */
-    align-items: center; /* Вирівнювання по вертикалі */
+    justify-content: center; 
+    align-items: center; 
     
 
         img {
