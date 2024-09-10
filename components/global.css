@@ -1,0 +1,37 @@
+@import url(features.css);
+@import url(footer.css);
+@import url(header.css);
+@import url(hero.css);
+@import url(reset.css);
+@import url(services.css);
+@import url(testimonials.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Mulish", system-ui;
+}
+
+
+body {
+    /* min-height: 100svh; */
+    height: fit-content;
+    background-color: #ffffff;
+}
+
+/* 
+body {
+    height: fit-content;
+    background-color: #ffffff;
+}
+
+button {
+    cursor: pointer;
+    border-radius: 55px;
+    transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+    box-shadow: 0px 10px 100px rgb(4, 98, 250);
+} */
