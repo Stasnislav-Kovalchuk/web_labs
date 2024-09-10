@@ -84,3 +84,75 @@
         box-shadow: 0px 10px 100px rgb(4, 98, 250); /* Тінь при наведенні */
     }
 }
+
+
+/* Для планшетів (максимум 768px ширина) */
+@media (max-width: 768px) {
+    .services {
+        grid-template-columns: repeat(2, 1fr); /* Дві колонки */
+        padding: 0px 15px; /* Зменшимо відступи */
+        gap: 20px; /* Зменшимо простір між елементами */
+    }
+    .service {
+        width: 100%; /* Повна ширина елемента */
+        height: auto; /* Нехай висота блоку адаптується */
+    }
+}
+
+/* Для мобільних телефонів (максимум 480px ширина) */
+/* @media (max-width: 480px) {
+    .services {
+        grid-template-columns: 1fr; 
+    }
+    .service {
+        width: 100%; 
+        padding: 20px; 
+    }
+}
+
+
+@media (max-width: 768px) {
+    .service h3 {
+        font-size: 20px; 
+        line-height: 1.4;
+    }
+
+    .service p {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    .learn-more button {
+        width: 180px; 
+        height: 50px;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .service h3 {
+        font-size: 18px; 
+    }
+
+    .service p {
+        font-size: 13px;
+    }
+
+    .learn-more button {
+        width: 160px;
+        height: 45px;
+        font-size: 14px;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .service img {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .service h3, .service p {
+        text-align: center; 
+    }
+} */

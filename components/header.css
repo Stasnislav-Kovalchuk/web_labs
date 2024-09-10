@@ -1,12 +1,11 @@
 header {
     padding: 26px 80px 0px 80px;    
     display: flex;
-    /* row-gap: 24px; */
-    display: flex;
     justify-content: space-between;
     align-items: center;
-    
-    img{
+    position: relative; /* Для позиціонування бургер-меню */
+
+    img {
         cursor: pointer;
     }
 
@@ -20,18 +19,15 @@ header {
             font-size: 16px;
             font-style: normal;
             font-weight: 400;
-            
+
             &:hover {
-                color:  rgb(0, 0, 0);
+                color: rgb(0, 0, 0);
             }
-            
+
             span {
                 font-weight: 700;
-                color:#0B132A
+                color: #0B132A;
             }
         }
-
-        
     }
-
 }
